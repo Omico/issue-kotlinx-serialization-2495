@@ -8,9 +8,13 @@ requireRootProject()
 
 consensus {
     spotless {
-        freshmark()
-        gradleProperties()
-        kotlin()
-        kotlinGradle()
+        allprojects {
+            kotlin()
+            kotlinGradle()
+        }
+        rootProject {
+            freshmark()
+            gradleProperties()
+        }
     }
 }

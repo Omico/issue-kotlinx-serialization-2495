@@ -7,3 +7,7 @@ pluginManagement {
 plugins {
     id("gpi")
 }
+
+include(":core")
+include(":data")
+include(":playground")

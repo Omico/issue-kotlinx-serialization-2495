@@ -1,0 +1,3 @@
+package attribute
+
+interface Attribute
